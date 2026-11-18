@@ -44,11 +44,32 @@ ul {
     font-weight: 900;
 }
 
+.container0 {
+    display: flex;
+    background-color: #1F2937 ;
+}
 .container1 {
     background-color: #1F2937;
+    display: flex;
+    padding: 48px 0;
 }
 
 .sub-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    width: 300px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+    padding: 4px 16px;
 }
