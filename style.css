@@ -18,6 +18,8 @@ a {
     color: white;
 }
 
+/* I never leave comments so I thought I'd start */
+
 ul {
     list-style-type: none;
     display: flex;
@@ -25,4 +27,13 @@ ul {
     margin: 0 0 0 auto;
     padding: 0;
     gap: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 4px 16px;    
 }
