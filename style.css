@@ -121,12 +121,12 @@ ul {
     padding: 72px;
     gap: 48px;
     color: #1F2937;
-    font-weight: 300;
     justify-content: center;
 }
 
 .container3 p{
     Font-size: 36px;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -135,4 +135,33 @@ ul {
     font-size: 24px;
     font-weight: 900;
     text-align: right;
+}
+
+.container4 {
+    padding: 96px;
+}
+
+.container4 .card {
+    display: flex;
+    background-color: #3882F6;
+    width: 800px;
+    padding: 48px 120px;
+    border-radius: 20px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container4 h2,
+.container4 p {
+    margin: 0;
+}
+
+.container4 a {
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 6px 36px;
 }
