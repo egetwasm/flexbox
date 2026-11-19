@@ -5,6 +5,10 @@ body {
     font-family: "Roboto";
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -177,4 +181,60 @@ ul {
     border: 2px solid #111111;
     border-radius: 6px;
     padding: 6px 36px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 8px 16px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        padding: 32px 16px;
+        gap: 24px;
+    }
+
+    .lefto h1 {
+        font-size: 36px;
+    }
+
+    .lefto p {
+        font-size: 20px;
+    }
+
+    .righto img {
+        width: 100%;
+    }
+
+    .container2 {
+        padding: 32px 16px;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 180px;
+    }
+
+    .container3 {
+        padding: 32px 16px;
+    }
+
+    .container3 p {
+        font-size: 24px;
+    }
+
+    .container4 {
+        padding: 48px 16px;
+    }
+
+    .container4 .card {
+        width: 100%;
+        padding: 24px;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+    }
 }
