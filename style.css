@@ -115,3 +115,24 @@ ul {
     gap: 24px;
 }
 
+.container3 {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 72px;
+    gap: 48px;
+    color: #1F2937;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.container3 p{
+    Font-size: 36px;
+    font-style: italic;
+}
+
+.container3 span {
+    display: block;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+}
